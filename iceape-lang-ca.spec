@@ -7,7 +7,7 @@ Summary(es.UTF-8):	Recursos catalanes para Iceape
 Summary(pl.UTF-8):	Katalońskie pliki językowe dla Iceape
 Name:		iceape-lang-%{_lang}
 Version:	1.1.8
-Release:	1
+Release:	2
 License:	GPL
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
@@ -23,6 +23,7 @@ Requires(post,postun):	iceape >= %{version}
 Requires(post,postun):	textutils
 Requires:	iceape >= %{version}
 Obsoletes:	mozilla-lang-ca
+Obsoletes:	seamonkey-lang-ca
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
