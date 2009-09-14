@@ -7,13 +7,13 @@ Summary(es.UTF-8):	Recursos catalanes para Iceape
 Summary(pl.UTF-8):	Katalońskie pliki językowe dla Iceape
 Name:		iceape-lang-%{_lang}
 Version:	1.1.15
-Release:	2
+Release:	3
 License:	GPL
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
 # Source0-md5:	46e6d08cafe2e852fe0d8f77444fd848
-Source1:	http://www.mozilla-enigmail.org/download/release/0.95/enigmail-%{_lare}-0.95.xpi
-# Source1-md5:	81b64164c89ba771886f1e2c0d8d7044
+Source1:	http://www.mozilla-enigmail.org/download/release/0.96/enigmail-%{_lare}-0.96.xpi
+# Source1-md5:	b2305f139f1f2c816acbd38c5d3eff7f
 Source2:	gen-installed-chrome.sh
 URL:		http://www.seamonkey-project.org/
 BuildRequires:	sed >= 4.0
